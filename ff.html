@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+  <style>
+    body{
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+    }
+    .container{
+        background-color: antiquewhite;
+        padding: 1rem;
+        border-radius: 10px;
+
+    }
+    .btn{
+
+        padding: 0.5rem 2rem;
+        border: none;
+        outline: none;
+        font-weight: bold;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .btnprimary{
+
+
+        color: white;
+        background-color: blueviolet;
+    }
+    .btnsecondary{
+        padding: 0.5rem 1rem;
+        background-color: palevioletred;
+    }
+    .moving:hover{
+        margin-left: 70px;
+
+
+
+    }
+  </style>
+</head>
+<body>
+    <section class="container">
+        <h2 class="txt">ស្រលាញ់ខ្ញុំដែរទេ?❤️</h2>
+<button class="btn btnprimary">Yes</button>
+<button class="btn btnsecondary moving">No</button>
+
+    </section>
+
+
+    <script>
+        const btnAgree = document.querySelector(".btnPrimary");
+        const btnDisagree = document.querySelector(".btnsecondary")
+        const text = document.querySelector(".text")
+        btnAgree.addEventListener("click", ()=>{
+            tex.innerText = "ស្រលាញ់ខ្ញុំ",
+
+
+
+        })
+
+
+
+
+    </script>
+</body>
+</html>
